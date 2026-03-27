@@ -1,10 +1,10 @@
 # CanSat 2026: Stereo Vision & Telemetry System (ModelEggs)
 
-Este repositorio contiene la arquitectura de software, especificaciones de hardware y protocolos de comunicación para la misión CanSat 2026. El sistema destaca por su capacidad de transmisión estereoscópica mediante conmutación dinámica de modulación RF.
+Este repositorio contiene la arquitectura de software, especificaciones de hardware y protocolos de comunicación para la misión CanSat 2026 del equipo ModelEggs. El sistema destaca por su capacidad de transmisión mediante conmutación dinámica de modulación de radio frecuencia.
 
-## 🛠 Arquitectura de Hardware
+## Hardware
 - **OBC:** STM32F401CCU6 (Blackpill).
-- **Sensores:** IMU BNO085 (Fusión de datos por cuaterniones), Barómetro MS5611.
+- **Sensores:** IMU BNO085, BME280.
 - **Carga Útil:** 2x ESP32-CAM (OV2640).
 - **Radio:** Semtech SX1278 (433MHz).
 - **Ground Station:** Antena Yagi-Uda de 5 elementos + Receptor STM32.
